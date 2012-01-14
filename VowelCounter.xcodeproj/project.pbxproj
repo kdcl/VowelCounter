@@ -10,6 +10,7 @@
 		18D2DD6614C19990002EC31E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D2DD6514C19990002EC31E /* Foundation.framework */; };
 		18D2DD6914C19990002EC31E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2DD6814C19990002EC31E /* main.m */; };
 		18D2DD6D14C19990002EC31E /* VowelCounter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18D2DD6C14C19990002EC31E /* VowelCounter.1 */; };
+		E7D6234414C1C3DA00EB4EA8 /* NSString+VowelCounting.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D6234314C1C3DA00EB4EA8 /* NSString+VowelCounting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,10 @@
 		18D2DD6114C19990002EC31E /* VowelCounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VowelCounter; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D2DD6514C19990002EC31E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18D2DD6814C19990002EC31E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18D2DD6B14C19990002EC31E /* VowelCounter-Prefix.pch */ = {isa = PBXFileReference; path = "VowelCounter-Prefix.pch"; sourceTree = "<group>"; };
+		18D2DD6B14C19990002EC31E /* VowelCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VowelCounter-Prefix.pch"; sourceTree = "<group>"; };
 		18D2DD6C14C19990002EC31E /* VowelCounter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VowelCounter.1; sourceTree = "<group>"; };
+		E7D6234214C1C3DA00EB4EA8 /* NSString+VowelCounting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VowelCounting.h"; sourceTree = "<group>"; };
+		E7D6234314C1C3DA00EB4EA8 /* NSString+VowelCounting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VowelCounting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				18D2DD6814C19990002EC31E /* main.m */,
+				E7D6234214C1C3DA00EB4EA8 /* NSString+VowelCounting.h */,
+				E7D6234314C1C3DA00EB4EA8 /* NSString+VowelCounting.m */,
 				18D2DD6C14C19990002EC31E /* VowelCounter.1 */,
 				18D2DD6A14C19990002EC31E /* Supporting Files */,
 			);
@@ -113,6 +118,9 @@
 /* Begin PBXProject section */
 		18D2DD5814C19990002EC31E /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 18D2DD5B14C19990002EC31E /* Build configuration list for PBXProject "VowelCounter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -136,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D2DD6914C19990002EC31E /* main.m in Sources */,
+				E7D6234414C1C3DA00EB4EA8 /* NSString+VowelCounting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +233,7 @@
 				18D2DD7214C19990002EC31E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

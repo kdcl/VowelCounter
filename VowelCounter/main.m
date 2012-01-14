@@ -14,7 +14,9 @@ int main (int argc, const char * argv[])
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
     // insert code here...
-    NSLog(@"Hello, World!");
+    NSString *string = @"Haaaei";
+    NSLog(@"%@ Has %d vowels", string, [string vowelCount]);
+  
 
     [pool drain];
     return 0;
